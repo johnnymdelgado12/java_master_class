@@ -32,5 +32,11 @@ public class main {
 
         long bigLongLiteralValue = 2147483647234L;
         System.out.println(bigLongLiteralValue);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        System.out.println(myNewByteValue);
+
+        short myNewShortValue = (short) (myMinShortValue / 2);
+        System.out.println(myNewShortValue);
     }
 }
