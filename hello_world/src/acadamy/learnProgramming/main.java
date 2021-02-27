@@ -38,5 +38,15 @@ public class main {
 
         short myNewShortValue = (short) (myMinShortValue / 2);
         System.out.println(myNewShortValue);
+
+        byte myByte = 10;
+        short myShort = 20;
+        int myInt = 50;
+
+        long myLongTotal = 50000L + 10L * (myByte + myShort + myInt);
+        System.out.println(myLongTotal);
+
+
+
     }
 }
