@@ -20,7 +20,7 @@ public class stringExercises {
 
         String myNumberString = "250.55";
         myNumberString = myNumberString + "49.95";
-        System.out.println(myNumberString );
+        System.out.println(myNumberString ); 
         
         String myLastString = "10";
         int myInt = 50;
