@@ -36,5 +36,13 @@ public class operators {
 
         result -=5;
         System.out.println("10 - 5 = " + result);
+
+        boolean isAlien = false;
+        if(isAlien == false){
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens!");
+        }
+           
+        
     }
 }
