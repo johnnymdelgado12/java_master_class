@@ -48,10 +48,48 @@ public class operators {
             System.out.println("You got the high score!");
         }
            
-        int secondTopScore = 81;
-        if (topScore > secondTopScore && topScore < 100) {
+        int secondTopScore = 95;
+        if ((topScore > secondTopScore) && (topScore < 100) ) {
             System.out.println("Greater than second top score and less than 100");
+        }
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either both of the conditions are true");
+        }
+
+        int newValue = 50;
+        if(newValue == 50){
+            System.out.println("This is true");
+        }
+        boolean isCar = false;
+        if(isCar != true){
+            System.out.println("This is not supposed to happen ");
+        }
+
+        isCar = true; 
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+        double myFirstDouble = 20.00d;
+        double MySecondDouble = 80.00d;
+
+        double myTotalDouble = (myFirstDouble + MySecondDouble) * 100.00d;
+        System.out.println("My total double =  " + myTotalDouble);
+
+        double myModules = myTotalDouble % 40.00d;
+        System.out.println("My modules = " +   myModules);
+
+        boolean isZero = myModules == 0 ? true : false;
+        System.out.println("Is zero = " + isZero);
+
+        System.out.println(isZero);
+
+        if(!isZero){
+            System.out.println("Got Some Remainder");
         }
         
     }
 }
+ 
